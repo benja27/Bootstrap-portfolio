@@ -1,0 +1,25 @@
+.hero {
+  min-height: 100vh;
+  background-color: blue;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  width: 400px;
+}
+.hero-content a {
+  text-decoration: none;
+  color: white;
+}
+.hero-content a:visited {
+  color: yellow;
+}
+
+body {
+  margin: 0;
+}/*# sourceMappingURL=hola.css.map */

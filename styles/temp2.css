@@ -1,0 +1,54 @@
+a {
+  text-decoration: none;
+}
+
+.check,
+.check * {
+  border: 1px solid black;
+}
+
+.checkw,
+.checkw * {
+  border: 1px solid white;
+}
+
+.tp2-card-img {
+  background-image: url("https://benja27.github.io/Portfolio-setup2/assets/Snapshoot%20Portfolio2.svg");
+}
+.tp2-card-img .card-body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.tp2-card-img .hover-1 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.5s all ease;
+  overflow: hidden;
+  background-image: url("../assets/Img Placeholder.svg");
+}
+.tp2-card-img .show {
+  opacity: 1;
+}
+
+.tp2-card-img:hover .hover-1 {
+  opacity: 1;
+}
+
+.about-img {
+  transform: translateX(300px);
+}
+
+@media (min-width: 768px) {
+  .about-img {
+    transform: translateX(50px);
+  }
+}
+@media (min-width: 900px) {
+  .about-img {
+    transform: translateX(200);
+  }
+}
+
+/*# sourceMappingURL=temp2.css.map */

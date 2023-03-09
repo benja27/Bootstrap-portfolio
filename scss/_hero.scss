@@ -1,0 +1,26 @@
+
+@mixin link($color: white){
+  text-decoration: none;  
+  color: $color ;
+}
+
+.hero{
+  min-height: 100vh;
+  background-color: blue;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content{
+  text-align: center;
+  width: 400px;
+  a{
+    @include link();
+  }
+  a:visited{
+    color: yellow;
+  }
+}

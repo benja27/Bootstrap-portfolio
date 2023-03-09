@@ -1,0 +1,22 @@
+.presentation{
+  background-image: url('https://benja27.github.io/Portfolio-setup2/assets/header-shapes%20mobile@2x.svg');
+  background-size: cover;
+}
+
+.row:nth-child(odd){
+  background-color: aquamarine;
+}
+
+/* .check,
+.check * {
+  border: 1px solid black;
+}
+
+.checkw,
+.checkw * {
+  border: 1px solid white;
+}
+
+.test{
+  border-top-left-radius : 30%;
+} */
